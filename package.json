@@ -1,0 +1,28 @@
+{
+	"name": "wwit",
+	"version": "0.1.0",
+	"description": "Tells you the difference in time of a date from now in a humanized way.",
+	"main": "build.js",
+	"scripts": {
+		"test": "jest",
+		"build": "babel index.js --out-file build.js"
+	},
+	"license": "ISC",
+	"author": "Diljit VJ",
+	"keywords": [
+		"time",
+		"difference",
+		"humanize"
+	],
+	"files": [
+		"index.js"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/diljitvj/wwit"
+	},
+	"devDependencies": {
+		"babel-cli": "6.26.0",
+		"babel-preset-env": "1.7.0"
+	}
+}
