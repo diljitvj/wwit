@@ -51,12 +51,15 @@ Type: `Object`
 ##### format
 
 Type: `string`<br>
-Default: `short`
+Default: `short`<br>
+Possible Values :
+`short` : Short time unit names (such as s, min)
+`long` : Long time unit names (such as second, minutes)
 
 ##### startUnit
 
 Type: `string`<br>
-Default: `s`
+Default: `s`<br>
 Possible Values
 `s` : Seconds
 `min` : Minutes
